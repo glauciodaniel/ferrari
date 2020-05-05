@@ -30,6 +30,11 @@ hr.italy {
     flex-direction: column;
 }
 
+.page .page-header {
+    width: 100%;
+    flex-direction: column;
+}
+
 .page header {
     height: 210px;
     width: 100%;
@@ -56,6 +61,10 @@ form {
     flex-direction: column;
     padding: 1em;
     width: 100%;
+}
+
+form .fields {
+    flex-direction: column;
 }
 
 form .field {
@@ -85,6 +94,18 @@ form .field textarea {
     font-family: 'Open Sans';
 }
 
+form .actions {
+    flex-direction: column;
+    align-content: center;
+}
+
+form .actions a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    color: var(--gray6);
+}
+
 form button {
     width: 100%;
     background-color: var(--green);
@@ -99,7 +120,6 @@ form button {
     outline: none;
 }
 
-
 form button:hover {
     background-color: var(--green-hover);
 }
@@ -108,7 +128,13 @@ form button:active {
     background-color: var(--green-active);
 }
 
+a {
+    color: var(--red);
+}
 
+a:hover {
+    color: var(--black);
+}
 
 @media (min-width: 576px) {
     .page header {
