@@ -136,12 +136,27 @@ a:hover {
     color: var(--black);
 }
 
+.show-desktop {
+    display:none;
+}
+/* Daqui para cima é tudo celular - Mobile First */
 @media (min-width: 576px) {
     .page header {
         height: 45vh;
     }
 }
+@media (min-width: 992px) {
 
+}
+/* desktop - telas de 1200px */
+@media (min-width: 1200px) {
+    .show-desktop {
+        display:flex;
+    }
+    .hide-desktop {
+        display: none;
+    }
+}
 
 
 
