@@ -31,7 +31,7 @@
 
     #login.page section {
         flex-direction: row;
-        height: calc(100vh - 396px);
+        min-height: calc(100vh - 396px);
     }
 
     #login.page section .image,
