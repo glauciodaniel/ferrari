@@ -124,4 +124,11 @@
     #our-history.page header {
         background-position: 0px -30vw;
     }
+
+    @media (prefers-color-scheme: dark) {
+        #our-history.page .column h2.gray {
+            border-bottom-color: var(--black);
+        }
+    }
+    
 }
